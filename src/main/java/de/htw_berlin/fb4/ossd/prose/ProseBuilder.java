@@ -1,11 +1,11 @@
-package de.htw_berlin.fb4.ossd;
+package de.htw_berlin.fb4.ossd.prose;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class ProseBuilder {
+public class ProseBuilder implements Prose {
 
-    private List<Sentence> sentences;
+    private final List<Sentence> sentences;
 
     public ProseBuilder(){
         sentences = new ArrayList<>();
@@ -16,7 +16,12 @@ public class ProseBuilder {
 
     public String build(){
         StringBuilder builder = new StringBuilder();
-        sentences.stream().forEach(x -> {builder.append(x.get()); builder.append("\n");});
+        sentences.forEach(x -> {builder.append(x.get()); builder.append("\n");});
         return builder.toString();
+    }
+
+    @Override
+    public String get() {
+        return build();
     }
 }

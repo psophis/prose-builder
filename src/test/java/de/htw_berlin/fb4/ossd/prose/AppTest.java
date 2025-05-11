@@ -1,4 +1,4 @@
-package de.htw_berlin.fb4.ossd;
+package de.htw_berlin.fb4.ossd.prose;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
