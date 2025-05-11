@@ -5,8 +5,6 @@
  *
  *  SPDX-License-Identifier: MIT
  */
-
-
 package de.htw_berlin.fb4.ossd.prose.example;
 
 import de.htw_berlin.fb4.ossd.prose.ProseBuilder;
