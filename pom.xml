@@ -10,8 +10,13 @@
 
   <name>prose_builder</name>
   <description>A simple prose_builder.</description>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <url>https://github.com/bs-jokri/prose-builder</url>
+  <licenses>
+    <license>
+      <name>MIT</name>
+      <url>https://spdx.org/licenses/MIT.html</url>
+    </license>
+  </licenses>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
